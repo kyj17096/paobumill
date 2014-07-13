@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >TreatMill
+    </string>
+    <string name="action_settings" >Settings
+    </string>
+    <string name="not_allowed_data" >Not_allowed_data
+    </string>
+    <string name="calorie_can_not_be_0" >Calorie can not be 0
+    </string>
+    <string name="ok" >ok
+	</string>
+	<string name="distance_can_not_be_0" >Distance can not be 0
+    </string>
+     <string name="aim_distance" >Goal distance
+    </string>
+    <string name="aim_calorie" >Goal calorie
+    </string>
+    <string name="history_aim" >History goal
+    </string>
+    <string name="calorie" >Calorie
+    </string>
+    <string name="distance" >Distance
+    </string>
+    <string name="time" >Time
+    </string>
+    <string name="all_statistic" >All
+    </string>
+    <string name="this_month_statistic" >Month
+    </string>
+    <string name="this_week_statistic" >Week
+    </string>
+	<string name="safe_lock_is_off" >Safety switch falls off
+    </string>
+    <string name="error" >Error
+    </string>
+    <string name="expert_mode" >Expert
+    </string>
+    <string name="relaxed_mode" >Relaxation
+    </string>
+    <string name="arcade_mode" >Arcade
+    </string>	
+    <string name="heart_beat" >Pulse
+    </string>
+    <string name="not_allowed_data" >Not allowed data
+    </string>
+    <string name="aim" >Goal
+    </string>
+    <string name="no_exist_video_file" >No exist video file
+	</string>
+    <string name="please_select_speed" >Please select speed
+    </string>
+    <string name="please_select_incline" >Please select incline
+    </string>
+	<string name="please_select_calorie" >Please select calorie
+    </string>
+    <string name="please_select_time" >Please select time
+    </string>
+    <string name="please_select_heart_beat" >Please select heart beat
+    </string>
+    <string name="please_select_distance" >Please select distance
+    </string>
+    <string name="please_select_value_larger_than_0" >Please select value larger than 0
+    </string>
+	<string name="please_input_name" >Please input name
+	</string>
+    <string name="please_select" >Please select
+    </string>
+	<string name="speed" >Speed
+    </string>
+	<string name="incline" >Incline
+    </string>
+    <string name="select" >Select
+    </string>
+	<string name="aim_setting" >Goal setting
+    </string>
+	<string name="help" >Help
+    </string>
+    <string name="about_us" >About us
+    </string>
+    <string name="user" >User
+    </string>
+    <string name="aim_50_km" >Goal 50 km
+    </string>
+    <string name="please_rember_more_excise" >Please remember to do more excise
+    </string>
+	<string name="edit" >Edit
+    </string>
+    <string name="delete" >Delete
+    </string>
+    <string name="switch_user">Switch user
+    </string>
+    <string name="back" >Back
+    </string>
+    <string name="save" >Save
+    </string>
+	<string name="please_select_goal_of_calorie" >Please select goal of calorie
+    </string>
+    <string name="calorie_kj" >Calorie(KJ)
+    </string>
+    <string name="please_select_goal_of_distance" >Please select goal of distance
+    </string>
+    <string name="distance_km" >Distance(KM)
+    </string>
+    <string name="user_name" >Name:
+    </string>
+	<string name="age" >Age:
+    </string>
+	<string name="weight" >Weight:
+    </string>
+	<string name="kg" >kg:
+    </string>
+	<string name="pound" >pd:
+    </string>
+	<string name="height" >Height:
+    </string>
+	<string name="cm" >cm:
+    </string>
+	<string name="inch" >inch:
+    </string>
+	<string name="default_user" >default:
+    </string>
+	<string name="select_task_minute" >Min
+    </string>
+	<string name="select_task_km" >Km		
+    </string>
+	<string name="select_task_cal" >Cal		
+    </string>
+	<string name="select_task_beat" >Beat		
+    </string>
+    <string name="have_not_set_goal" >you have not set exercise goal. 	
+    </string>
+</resources>

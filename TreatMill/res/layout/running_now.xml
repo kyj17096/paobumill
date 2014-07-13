@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800px"
+    android:layout_height="446px"
+    android:orientation="vertical" >
+
+  <LinearLayout 
+    android:layout_width="800px"
+    android:layout_height="50px"
+    android:orientation="horizontal" 
+    android:background="@drawable/title_bar">
+    
+            
+     <ImageView
+       	android:layout_marginLeft = "330px"
+	    android:layout_width="150px"
+	    android:layout_height="20px"
+	    android:layout_marginTop="10px"
+	    android:background= "@drawable/title_sf"/>
+	<Button
+	    android:id="@+id/stop_play"
+	    android:layout_marginLeft = "183px"
+	    android:layout_width="134px"
+	    android:layout_height="36px"
+	    android:layout_marginTop="3px"
+	    android:background="@drawable/stop_paly_video"/>
+    </LinearLayout>   
+    
+   <SurfaceView
+       android:id="@+id/play_video_view"
+       android:layout_width="800px"
+       android:layout_height="355px"
+       android:layout_marginTop="45px" >
+       
+   </SurfaceView>
+   
+  	 <com.weihan.treatmill.MovableSpeedSelectPanel
+         android:id="@+id/speed_select_panel"
+         android:layout_marginTop="70px"
+         android:layout_marginLeft="-160px"
+	   	 android:layout_width="150px"
+	   	 android:layout_height="239px"
+	   	 android:background= "@drawable/speed_bg_not_selected"
+	 	 android:orientation="horizontal"
+	 	 android:visibility="visible">
+
+
+  	     <FrameLayout
+		    android:layout_width="100px"
+		    android:layout_height="180px"
+		    android:layout_marginTop="30px"
+  	         android:background="#00000000">
+     	<!--  <ImageView
+  	         android:id="@+id/speed_scroll_scale_value"
+  	         android:layout_width="15px"
+  	         android:layout_height="546px"
+  	         android:layout_marginLeft="25px"
+  	         android:background="#00000000"
+  	         android:layout_marginTop="32px"/>
+  	         
+  	       <ImageView
+  	         android:id="@+id/select_speed_scroll_scale"
+  	         android:layout_width="15px"
+  	         android:layout_height="546px"
+  	         android:layout_marginLeft="40px"
+  	         android:background="@drawable/speed_scale"
+  	         android:layout_marginTop="32px"/>
+			 -->
+  	       <ImageView
+  	         android:id="@+id/select_speed_scroll_sv"
+  	         android:layout_width="30px"
+  	         android:layout_height="546px"
+  	         android:layout_marginLeft="25px"
+  	         android:background="@drawable/speed_scroll"
+  	         android:layout_marginTop="36px"/>
+  	       
+  	         <TextView
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:textSize="12px"
+  	         android:layout_marginTop="0px"
+  	         android:layout_marginLeft="63px"
+  	         android:text=""/>
+  	         <TextView
+  	         android:id="@+id/selectSpeedValue"
+  	         android:layout_width="50px"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="70px"
+  	         android:textSize="16px"
+  	         android:layout_marginLeft="45px"
+             android:gravity="center"
+  	         android:text="30"/>
+  	        <TextView
+  	            android:id="@+id/text_speed_scale_in_panel"
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="90px"
+  	         android:layout_marginLeft="60px"
+  	         android:textSize="12px"
+  	         android:text=""/>
+  	        <TextView
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="160px"
+  	          android:layout_marginLeft="60px"
+  	         android:textSize="12px"
+  	         android:text=""/>
+  	         
+  	      <ImageView
+  	         android:layout_width="25px"
+  	         android:layout_height="190px"
+  	         android:layout_marginLeft="85px"
+  	         android:layout_marginTop="0px"
+  	         android:background="@drawable/scroll_bg"
+  	   		  />
+  	      </FrameLayout>
+  	      <FrameLayout
+  	        android:layout_width="14px"
+  	        android:layout_height="180px"
+  	       	android:layout_marginTop="35px"
+	    	android:layout_marginLeft="105px" 
+	    	android:background = "#00000000">
+  	      <ImageView
+  	        android:id="@+id/speed_texture_move"
+  	        android:layout_width="13px"
+  	        android:layout_height="800px"
+  	        android:background="@drawable/speed_texture"
+  	        android:layout_marginTop="-50px"
+	  	     />
+  	      </FrameLayout>
+  	      <ImageView
+  	         android:layout_width="70px"
+  	         android:layout_height="35px"
+  	         android:layout_marginTop="100px"
+  	         android:layout_marginLeft="-16px"
+  	         android:background="@drawable/speed_point"
+  	    	 />
+         <Button
+             android:id="@+id/turn_off_speed_select_panel"
+             android:layout_width="30px"
+             android:layout_height="239px"
+             android:layout_marginLeft="120px"
+             android:layout_marginTop="0px"
+             android:background="#00000000"/>
+    </com.weihan.treatmill.MovableSpeedSelectPanel>
+        
+    
+    <com.weihan.treatmill.MovableSpeedSelectIcon
+         android:id="@+id/speed_select_icon"
+         android:layout_marginTop="130px"
+         android:layout_marginLeft="-5px"
+	    android:layout_width="70px"
+	    android:layout_height="80px"
+	    android:background= "@drawable/speed_select_not_click"
+	    android:visibility="visible"
+	  >
+  	   <TextView
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="20px"
+  	         android:layout_marginLeft="20px"
+  	         android:textSize="12px"
+  	         android:text="@string/speed"/>
+  	        <TextView
+  	         android:id="@+id/speed_value_in_speed_icon"
+  	         android:layout_width="42px"
+  	         android:layout_height="23px"
+  	         android:layout_marginTop="32px"
+  	         android:layout_marginLeft="11px"
+             android:gravity="center"
+  	         android:textSize="20px"/>
+  	        <TextView
+  	         android:id="@+id/speed_scale_in_speed_icon"
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="53px"
+		     android:layout_marginLeft="18px"
+             android:text="km/h"
+  	         android:textSize="12px"/>
+   </com.weihan.treatmill.MovableSpeedSelectIcon>
+    
+    
+   <com.weihan.treatmill.MovableHeightSelectPanel
+	       android:id="@+id/height_select_panel"
+	       android:layout_marginTop="70px"
+	       android:layout_marginLeft="800px"
+		   android:layout_width="150px"
+		   android:layout_height="239px"
+		   android:background= "@drawable/incline_bg_not_selected"
+	 	  android:orientation="horizontal">
+      
+  	   <Button
+  	        android:id="@+id/turn_off_height_select_panel"
+  	         android:layout_width="30px"
+  	         android:layout_height="239px"
+  	         android:layout_marginLeft="5px"
+  	         android:layout_marginTop="0px"
+  	         android:background="#00000000"/>
+  	
+         	<ImageView
+  	         android:layout_width="25px"
+  	         android:layout_height="185px"
+  	         android:layout_marginLeft="50px"
+  	         android:layout_marginTop="30px"
+  	         android:background="@drawable/incline_xuanniu_bg"
+  	   		  />
+
+  	      <FrameLayout
+  	        android:layout_width="14px"
+  	        android:layout_height="170px"
+  	       	android:layout_marginTop="37px"
+	    	android:layout_marginLeft="33px" 
+	    	android:background = "#00000000">
+  	      <ImageView
+  	        android:id="@+id/height_texture_move"
+  	        android:layout_width="14px"
+  	        android:layout_height="800px"
+  	        android:background="@drawable/incline_texture"
+  	        android:layout_marginTop="-50px"
+	  	     />
+  	      </FrameLayout>
+  	      
+  	     <FrameLayout
+		    android:layout_width="70px"
+		    android:layout_height="168px"
+		    android:layout_marginTop="35px"
+		    android:layout_marginLeft="70px"
+  	         android:background="#00000000">
+    
+  	        <TextView
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:textSize="12px"
+  	         android:layout_marginTop="0px"
+  	         android:layout_marginLeft="3px"
+  	         android:text=""/>
+  	         <TextView
+  	         android:id="@+id/select_height_value"
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="65px"
+  	         android:textSize="20px"
+             android:gravity="center"
+             android:text="10"
+  	         android:layout_marginLeft="2px"/>
+  	        <TextView
+  	        android:id="@+id/text_height_scale_in_panel"
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="85px"
+  	         android:layout_marginLeft="5px"
+  	         android:textSize="12px"
+  	         android:text="%"/>
+  	        <TextView
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="150px"
+  	          android:layout_marginLeft="3px"
+  	         android:textSize="12px"
+  	         android:text=""/>
+  	       <!-- <ImageView
+  	         android:id="@+id/select_height_scroll_scale"
+  	         android:layout_width="15px"
+  	         android:layout_height="546px"
+  	         android:layout_marginLeft="30px"
+  	         android:layout_marginTop="25px"
+  	         android:background="@drawable/incline_scale"/>
+            <ImageView
+               android:id="@+id/height_scroll_scale_value"
+               android:layout_width="15px"
+               android:layout_height="546px"
+               android:layout_marginLeft="45px"
+                android:layout_marginTop="25px"
+               android:background="#00000000"/>
+			 -->
+			 <ImageView 
+			     android:id="@+id/select_incline_scroll_sv"
+  	         android:layout_width="15px"
+  	         android:layout_height="546px"
+  	         android:layout_marginLeft="30px"
+  	         android:layout_marginTop="28px"
+  	         android:background="@drawable/incline_scroll"/>
+  	      </FrameLayout>
+
+  	     <ImageView
+  	         android:layout_width="50px"
+  	         android:layout_height="30px"
+  	         android:layout_marginTop="100px"
+  	         android:layout_marginLeft="100px"
+  	         android:background="@drawable/incline_point"
+  	    	 />
+
+    </com.weihan.treatmill.MovableHeightSelectPanel>
+        
+    
+    <com.weihan.treatmill.MovableHeightSelectIcon
+         android:id="@+id/height_select_icon"
+         android:layout_marginTop="130px"
+	    android:layout_width="70px"
+	    android:layout_height="80px"
+	    android:layout_marginLeft="735px"
+	    android:background= "@drawable/incline_smal_icon_not_selected"
+	  >
+  	   <TextView
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="20px"
+  	         android:textSize="12px"
+	  		  android:layout_marginLeft="18px"
+  	         android:text="@string/incline"/>
+  	        <TextView
+  	         android:id="@+id/height_value_in_height_icon"
+  	         android:layout_width="42px"
+  	         android:layout_height="23px"
+  	         android:layout_marginTop="32px"
+	 		 android:layout_marginLeft="9px"
+             android:gravity="center"
+  	         android:textSize="20px"/>
+  	        <TextView
+  	         android:id="@+id/height_scale_in_height_icon"
+  	         android:layout_width="wrap_content"
+  	         android:layout_height="wrap_content"
+  	         android:layout_marginTop="53px"
+		     android:layout_marginLeft="23px"
+  	         android:textSize="12px"
+             android:text="%"/>
+   </com.weihan.treatmill.MovableHeightSelectIcon>
+    
+    <com.weihan.treatmill.MovableRealTimeRunningStatus
+        
+        android:id="@+id/real_time_running_status_panel"
+        android:layout_marginTop="410px"
+	    android:layout_width="800px"
+	    android:layout_height="221px"	
+	    android:clickable="true"    
+	    android:background= "@drawable/real_time_running_status">
+
+        
+      <TextView
+          android:layout_marginLeft = "90px"
+          android:layout_marginTop = "30px"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"
+          android:textSize="20px"
+          android:text="@string/distance"/>
+       <TextView
+          android:id="@+id/distance_value_in_real_panel"
+          android:layout_marginLeft = "85px"
+          android:layout_marginTop = "55px"
+          android:textColor="#1c85c7"
+          android:textSize="20px"
+          android:gravity="center"
+          android:layout_width="80px"
+          android:layout_height="wrap_content"
+          android:text="00.00"/>
+       <TextView
+          android:layout_marginLeft = "383px"
+          android:layout_marginTop = "30px"
+          android:textColor="#FFFFFF"
+          android:textSize="20px"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/time"/>
+       <TextView
+         android:id="@+id/time_value_in_real_panel"
+          android:layout_marginLeft = "365px"
+          android:layout_marginTop = "55px"
+          android:textColor="#63c45d"
+          android:textSize="20px"
+          android:layout_width="80px"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="00:00"/>
+         
+       <TextView
+          android:layout_marginLeft = "680px"
+          android:layout_marginTop = "30px"
+          android:textColor="#FFFFFF"
+          android:textSize="20px"
+          android:text="@string/calorie"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+       <TextView
+          android:id="@+id/calorie_value_in_real_panel"
+          android:layout_marginLeft = "671px"
+          android:layout_marginTop = "55px"
+          android:textColor="#e14748"
+          android:textSize="20px"
+          android:layout_width="80px"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="000.0"/>
+         
+       <ImageView
+           android:id="@+id/speed_incline_chart"
+           android:layout_width="350px"
+           android:layout_height="90px"
+           android:layout_marginLeft="215px"
+           android:layout_marginTop="115px"/>
+       
+       <TextView
+          android:layout_marginLeft = "620px"
+          android:layout_marginTop = "112px"
+          android:textColor="#555555"
+          android:textSize="25px"
+          android:text="@string/speed"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+        <TextView
+          android:id="@+id/speed_value_in_real_panel"
+          android:layout_marginLeft = "665px"
+          android:layout_marginTop = "112px"
+          android:textColor="#000000"
+          android:textSize="25px"
+          android:layout_width="100px"
+          android:gravity="center"
+          android:layout_height="wrap_content"
+          android:text="0.0"
+          />
+        <TextView
+          android:layout_marginLeft = "620px"
+          android:layout_marginTop = "155px"
+          android:textColor="#555555"
+          android:textSize="25px"
+          android:text="@string/incline"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+       <TextView
+          android:id="@+id/incline_value_in_real_panel"
+          android:layout_marginLeft = "665px"
+          android:layout_marginTop = "155px"
+          android:textColor="#000000"
+          android:textSize="25px"
+          android:layout_width="100px"
+          android:gravity="center"
+          android:text="0.0"
+          android:layout_height="wrap_content"/>
+       <FrameLayout 
+         android:layout_marginLeft = "58px"
+          android:layout_marginTop = "110px"
+          android:layout_width="105px"
+          android:layout_height="90px">
+  	   <ImageView
+	   android:id="@+id/heart_beat_speed_hint_img"
+          android:layout_marginLeft = "10px"
+          android:layout_marginTop = "10px"
+          android:background="@drawable/heart_icon"
+          android:layout_width="30px"
+          android:layout_height="30px"/>    
+       <ImageView
+          android:id="@+id/heart_beat_image_in_real_panel"
+          android:layout_marginLeft = "-50px"
+          android:layout_marginTop = "25px"
+          android:background="@drawable/heart_beat_chart"
+          android:layout_width="200px"
+          android:layout_height="60px"/>
+       <TextView
+           android:id="@+id/heart_beat_value_text"
+           android:layout_marginLeft = "70px"
+           android:layout_marginTop = "10px"
+           android:text="0"
+           android:textSize="20px"
+           android:textColor="#880000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       </FrameLayout>
+ <!--      <Button
+          android:id = "@+id/hide_display_real_time_status_panel"
+          android:layout_width="1280px"
+          android:layout_height="143px"
+          android:background="#00000000"/> -->
+      </com.weihan.treatmill.MovableRealTimeRunningStatus>
+      
+    <FrameLayout
+        android:id="@+id/control_bar_for_media"
+        android:layout_width="800px"
+        android:layout_height="50px"
+        android:layout_marginTop="396px"
+        android:background="@drawable/music_control_bar"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/music_list_btn"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="8px"
+            android:layout_width="44px"
+            android:layout_height="45px"
+            android:background="@drawable/music_video_list"/>
+        <Button
+            android:id="@+id/movie_list_btn"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="8px"
+            android:layout_width="44px"
+            android:layout_height="45px"
+				
+            android:background="@drawable/movie_list_button"/>
+        <Button
+            android:id="@+id/pre_music_btn"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="70px"
+            android:layout_width="44px"
+            android:layout_height="45px"
+		
+            android:background="@drawable/pre_media"/>
+        <Button
+            android:id="@+id/fr_movie_btn"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="70px"
+            android:layout_width="44px"
+            android:layout_height="45px"
+		
+            android:background="@drawable/fr_movie"/>
+         <Button
+            android:id="@+id/play_media_btn"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="120px"
+            android:layout_width="44px"
+            android:layout_height="45px"
+            android:visibility="gone"
+            android:background="@drawable/play_media"/>
+
+         <Button
+            android:id="@+id/stop_play_media_btn"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="120px"
+            android:layout_width="44px"
+            android:layout_height="45px"
+		
+            android:background="@drawable/stop_play_media"/>
+         <Button
+            android:id="@+id/next_music_btn"
+            android:layout_width="44px"
+            android:layout_height="45px"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="170px"
+		
+            android:background="@drawable/next_media"/>
+         <Button
+            android:id="@+id/ff_moive_btn"
+            android:layout_width="44px"
+            android:layout_height="45px"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="170px"
+			
+            android:background="@drawable/ff_moive"/>
+         <TextView
+            android:id="@+id/media_name_in_control_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:textColor="#555555"
+            android:textSize="20px"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"/>
+
+      	<ImageView
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="620px"
+            android:layout_width="177px"
+            android:layout_height="45px"
+            android:background="@drawable/vol_bg"/>
+        <Button
+            android:id="@+id/volume_dec"
+            android:layout_marginTop="11px"
+            android:layout_marginLeft="620px"
+            android:layout_width="80px"
+            android:layout_height="43px"
+            android:background="@drawable/volume_dec"/>
+         <Button
+            android:id="@+id/music_mute"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="685px"
+            android:layout_width="46px"
+            android:layout_height="45px"
+
+            android:background="@drawable/speack_mute"/>
+         <Button
+            android:id="@+id/music_on"
+            android:layout_marginTop="9px"
+            android:layout_marginLeft="685px"
+            android:layout_width="46px"
+            android:layout_height="45px"
+            
+            android:background="@drawable/speaker_aloud"/>
+         <Button
+            android:id="@+id/volume_add_btn"
+            android:layout_width="80px"
+            android:layout_height="43px"
+            android:layout_marginLeft="715px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/volume_add"/>
+       </FrameLayout> 
+       
+     	<FrameLayout
+        android:id="@+id/media_list_panel"
+        android:layout_width="250px"
+        android:layout_height="336px"
+        android:orientation="vertical"
+        android:background="@drawable/media_list_bg"
+        android:layout_marginTop="80px"
+        android:layout_marginLeft="0px"
+        android:visibility="gone"
+     >
+
+        <ListView
+            android:id="@+id/media_list"
+            android:layout_width="218px"
+            android:layout_height="230px"
+           	android:divider="#AAAAAA"
+       		 android:dividerHeight="1px"
+       		 android:layout_marginTop="45px"
+       		 android:layout_marginLeft="15px"
+       		 android:scrollbars="none"/>
+        </FrameLayout>
+        
+    
+</FrameLayout>

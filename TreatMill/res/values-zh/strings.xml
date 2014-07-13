@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" >跑步机
+    </string>
+    <string name="action_settings" >Settings
+    </string>
+    <string name="not_allowed_data" >不允许的数据！
+    </string>
+    <string name="calorie_can_not_be_0" >卡路里不能为0！
+    </string>
+    <string name="ok" >确定
+	</string>
+	<string name="distance_can_not_be_0" >距离不能为0
+    </string>
+     <string name="aim_distance" >目标距离
+    </string>
+    <string name="aim_calorie" >目标卡路里
+    </string>
+    <string name="history_aim" >历史目标
+    </string>
+    <string name="calorie" >卡路里
+    </string>
+    <string name="distance" >距离
+    </string>
+    <string name="time" >时间
+    </string>
+    <string name="all_statistic" >全部
+    </string>
+    <string name="this_month_statistic" >本月
+    </string>
+    <string name="this_week_statistic" >本周
+    </string>
+	<string name="safe_lock_is_off" >安全锁脱落
+    </string>
+    <string name="error" >错误
+    </string>
+    <string name="expert_mode" >专家模式
+    </string>
+	<string name="relaxed_mode" >休闲模式
+    </string>
+    <string name="arcade_mode" >娱乐模式
+	</string>
+    <string name="heart_beat" >心率
+    </string>
+    <string name="not_allowed_data" >不允许的数据！
+    </string>
+    <string name="aim" >目标
+    </string>
+    <string name="no_exist_video_file" >没有请求的视频文件
+	</string>
+    <string name="please_select_speed" >请选择速度
+    </string>
+    <string name="please_select_incline" >请选择坡度
+    </string>
+	<string name="please_select_calorie" >请选择卡路里
+    </string>
+    <string name="please_select_time" >请选择时间
+    </string>
+    <string name="please_select_heart_beat" >请选择心率值
+    </string>
+    <string name="please_select_distance" >请选择距离
+    </string>
+    <string name="please_select_value_larger_than_0" >请选择大于0的数值
+    </string>
+	<string name="please_input_name" >请输入名字
+	</string>
+    <string name="please_select" >请选择
+    </string>
+	<string name="speed" >速度
+    </string>
+	<string name="incline" >坡度
+    </string>
+    <string name="select" >选择
+    </string>
+	<string name="aim_setting" >目标设置
+    </string>
+	<string name="help" >帮助
+    </string>
+    <string name="about_us" >关于我们
+    </string>
+    <string name="user" >用户
+    </string>
+    <string name="aim_50_km" >目标50公里
+    </string>
+    <string name="please_rember_more_excise" >请记得多锻炼哦
+    </string>
+	<string name="edit" >编辑
+    </string>
+    <string name="delete" >删除
+    </string>
+    <string name="switch_user">切换用户
+    </string>
+    <string name="back" >后退
+    </string>
+    <string name="save" >保存
+    </string>
+	<string name="please_select_goal_of_calorie" >请选择目标卡路里
+    </string>
+    <string name="calorie_kj" >卡路里(千卡)
+    </string>
+    <string name="please_select_goal_of_distance" >请选择目标距离
+    </string>
+    <string name="distance_km" >距离(公里)
+    </string>
+    <string name="user_name" >用户名:
+    </string>
+	<string name="age" >年龄:
+    </string>
+	<string name="weight" >体重:
+    </string>
+	<string name="kg" >公斤:
+    </string>
+	<string name="pound" >英镑:
+    </string>
+	<string name="height" >身高:
+    </string>
+	<string name="cm" >厘米:
+    </string>
+	<string name="inch" >英寸:
+    </string>
+	<string name="default_user" >默认用户:
+    </string>
+	<string name="select_task_minute" >分钟
+    </string>
+	<string name="select_task_km" >公里		
+    </string>
+	<string name="select_task_cal" >卡	
+    </string>
+	<string name="select_task_beat" >次		
+    </string>
+    <string name="have_not_set_goal" >您没有设定锻炼目标哦.	
+    </string>
+</resources>

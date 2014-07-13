@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/float_icon_backgroud"
+    android:layout_width="660px"
+    android:layout_height="70px"
+    android:orientation="horizontal"
+
+    android:background="@drawable/roundcorner"   
+    >
+    
+<LinearLayout 
+    android:layout_width="110px"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    
+    android:layout_marginTop="0px"
+>
+    
+    <TextView 
+        android:id="@+id/float_height_value"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:gravity="center"
+    	android:text="0"/>
+    
+    <TextView 
+        android:id="@+id/float_height"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="20px"
+    	android:textColor="#FFFFFF"
+    	android:gravity="center"
+    	android:text="@string/incline"/>
+</LinearLayout>
+<View  
+        android:layout_width="1px"
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+        
+<LinearLayout 
+    android:layout_width="110px"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+      >
+        <TextView 
+        android:id="@+id/float_heart_beat_value"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	 android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:gravity="center"
+    	android:text="0"/>
+    
+    <TextView 
+        android:id="@+id/float_heart_beat"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="20px"
+    	android:textColor="#FFFFFF"
+    	android:text="@string/heart_beat"/>
+
+</LinearLayout>
+<View  
+        android:layout_width="1px"
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+<LinearLayout 
+    android:layout_width="110px"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/float_time_value"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:text="00:00"/>
+    
+    <TextView 
+        android:id="@+id/float_time"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="20px"
+    	android:textColor="#FFFFFF"
+    	android:text="@string/time"/>
+</LinearLayout>
+<View  
+        android:layout_width="1px"
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+<LinearLayout
+    android:layout_width="110px"
+    android:layout_height="wrap_content"
+        android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/float_distance_value"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:text="0.0"/>
+    
+    <TextView 
+        android:id="@+id/float_distance"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="20px"
+    	android:textColor="#FFFFFF"
+    	android:text="@string/distance"/>
+</LinearLayout>
+	<View  
+        android:layout_width="1px"
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+<LinearLayout
+    android:layout_width="110px"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/float_carlilu_value"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:text="0.0"/>
+    
+    <TextView 
+        android:id="@+id/float_carlilu"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="20px"
+    	android:textColor="#FFFFFF"
+    	android:text="@string/calorie"/>
+</LinearLayout>
+<View  
+        android:layout_width="1px"
+        android:layout_height="fill_parent"  
+        android:background="#B8B8B8"  
+        android:visibility="visible" />  
+<LinearLayout
+    android:layout_width="110px"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/float_speed_value"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	 android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:text="0.0"/>
+    
+    <TextView 
+        android:id="@+id/float_speed"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	  android:textSize="20px"
+    	android:textColor="#FFFFFF"
+    	android:text="@string/speed"/>
+</LinearLayout>
+</LinearLayout>

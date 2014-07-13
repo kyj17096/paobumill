@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400px"
+    android:layout_height="250px"
+    android:orientation="vertical"
+    android:background="@drawable/roundcorner_for_adjust_dialog" 
+    
+    android:gravity="center">
+    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="www.henortek.com"
+    android:textSize="35px"/>
+</LinearLayout>

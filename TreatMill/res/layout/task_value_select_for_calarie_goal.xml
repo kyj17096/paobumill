@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180px"
+    android:layout_height="200px"
+    android:orientation="vertical" 
+    android:background="@drawable/goal_popupwin">
+ <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >   
+    <Button android:id="@+id/goal_value_select_calorie_back"
+        android:layout_marginTop="5px"
+        android:layout_marginLeft ="20px"
+        android:layout_width="90px"
+        android:layout_height="39px"
+        android:text="back"
+        android:textColor="#000000"
+        />
+    <Button android:id="@+id/goal_value_select_calorie_save"
+         android:layout_marginTop="5px"
+        android:layout_marginLeft="50px"
+        android:layout_width="90px"
+        android:layout_height="39px"
+        android:text="@string/save"
+        android:textColor="#000000"
+        />
+ </LinearLayout>
+ 
+    <TextView 
+        android:layout_marginTop="10px"
+        android:layout_marginLeft=" 20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15px"
+        android:text="@string/please_select_goal_of_calorie"
+        android:textColor="#000000"
+        />    
+        
+ <LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="235px"
+		android:layout_height="45px"
+		android:background="#dddddd"
+		android:layout_marginLeft="13px"
+		android:layout_gravity="center_vertical">
+		
+    <TextView 
+        android:layout_marginLeft="3px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20px"
+        android:text="@string/calorie_kj"
+        android:textColor="#333333"
+        />   
+    <TextView android:id="@+id/goal_value_select_calorie_display"
+        android:layout_marginLeft="70px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25px"
+        android:text="330"
+        android:textColor="#1c85c7"
+        />   
+ </LinearLayout>    
+     <LinearLayout
+		android:layout_marginTop="5px"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<kankan.wheel.widget.WheelView android:id="@+id/calorie_select_value_in_wheel_h"
+			android:layout_height="160px"
+			android:layout_width="80px"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/calorie_select_value_in_wheel_l"
+			android:layout_height="160px"
+			android:layout_width="80px"/>  
+	</LinearLayout>   
+        
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/float_icon_backgroud"
+    android:layout_width="500px"
+    android:layout_height="500px"
+    android:orientation="vertical"
+    android:background="@drawable/roundcorner_for_adjust_dialog" >
+    
+
+    
+    <TextView 
+        android:layout_marginTop="10px"
+        android:id="@+id/hine_for_adjust_para"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:gravity="center"
+    	android:text="@string/please_select"/>
+    
+    <TextView 
+        android:layout_marginTop="10px"
+        android:id="@+id/value_for_adjust_para"
+         android:layout_gravity="center_horizontal"
+    	android:layout_width="100px"
+    	android:layout_height="wrap_content"
+    	android:textSize="23px"
+    	android:textColor="#FFFFFF"
+    	android:gravity="center"
+    	android:text="0"/>
+    
+    <SeekBar
+       android:id="@+id/seekbar_for_adjust_para"
+        android:layout_marginTop="10px"
+       	android:layout_gravity="center_horizontal"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="10"
+        />
+    
+
+	<Button  
+	    android:id="@+id/ok_for_setting_para"
+	    android:layout_marginTop="10px"
+	    android:layout_gravity="center_horizontal"
+    	android:layout_width="100px"
+    	android:layout_height="wrap_content"
+    	android:textColor="#FFFFFF"
+    	android:text="@string/ok" />  
+        
+</LinearLayout>

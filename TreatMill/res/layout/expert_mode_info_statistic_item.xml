@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    	<TextView
+    			android:id="@+id/expert_mode_info_mode_text"
+         	 android:layout_width="wrap_content"
+     		 android:layout_height="wrap_content"
+     		 android:layout_marginTop="5px"
+    			 android:layout_marginLeft="5px"
+    			 android:textSize="25px"
+    			 android:textColor="#666666"
+    			 android:background="@drawable/my_fitness_list_text"/>
+    		<TextView
+    			android:id="@+id/expert_mode_info_mode_date_text"
+         	 android:layout_width="wrap_content"
+     		 android:layout_height="wrap_content"
+     		 android:layout_marginTop="5px"
+    			 android:layout_marginLeft="5px"
+    			 android:textSize="25px"
+    			 android:textColor="#666666"
+    			 android:background="@drawable/my_fitness_list_text"/>
+    </LinearLayout>
+	      <TextView
+    			android:id="@+id/expert_mode_info_mode_distance_text"
+         	 android:layout_width="wrap_content"
+     		 android:layout_height="wrap_content"
+     		 android:layout_marginTop="5px"
+    			 android:layout_marginLeft="5px"
+    			 android:textSize="25px"
+    			 android:textColor="#666666"
+    			 android:background="@drawable/my_fitness_list_text"/>
+    		<TextView
+    			android:id="@+id/expert_mode_info_mode_calorie_text"
+         	 android:layout_width="wrap_content"
+     		 android:layout_height="wrap_content"
+     		 android:layout_marginTop="5px"
+    			 android:layout_marginLeft="5px"
+    			 android:textSize="25px"
+    			 android:textColor="#666666"
+    			 android:background="@drawable/my_fitness_list_text"/>
+    		 <TextView
+    			android:id="@+id/expert_mode_info_mode_duration_text"
+         	 android:layout_width="wrap_content"
+     		 android:layout_height="wrap_content"
+     		 android:layout_marginTop="5px"
+    			 android:layout_marginLeft="5px"
+    			 android:textSize="25px"
+    			 android:textColor="#666666"
+    			 android:background="@drawable/my_fitness_list_text"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300px"
+    android:layout_height="400px"
+    android:orientation="vertical"
+    android:background="@drawable/choose_scene_bg" >
+    <FrameLayout 
+    android:layout_width="250px"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="45px"
+    android:layout_marginTop="30px"
+>
+       <ListView
+           android:id="@+id/select_scene"
+           android:layout_width="200px"
+           android:layout_height="300px"
+      	   android:dividerHeight="5px"
+      	   android:divider="#00000000"
+      	   
+      	   android:scrollbars="none"/>
+       </FrameLayout>
+</LinearLayout>

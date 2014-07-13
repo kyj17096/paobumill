@@ -1,0 +1,6 @@
+102  My fitness 我的健身
+104  Arcade Mode 娱乐模式
+105  Expert Mode 专业模式
+101  relaxed mode 休闲模式
+103  Heart rate mode 心率模式
+Scene mode 场景模式

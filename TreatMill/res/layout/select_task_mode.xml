@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="390px"
+    android:layout_height="250px"
+    android:background="@drawable/seek_bar"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/hint_for_task_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20px"
+        android:layout_marginTop="25px"
+        android:textColor="#333333"
+		android:text="please select calorie"
+		android:gravity="center_horizontal"
+		android:layout_gravity="center_horizontal"
+       />
+    <TextView
+        android:id="@+id/select_value"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55px"
+        android:textColor="#008000"
+        android:textSize="35px"
+        android:text="0"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginLeft="230px"
+		android:layout_marginTop="65px"
+        android:textColor="#555555"
+        android:textSize="20px"
+        android:text="t"/>
+
+
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="330px"
+        android:layout_height="70px"
+		android:layout_marginTop="100px"
+		android:layout_marginLeft="30px"
+	    android:maxHeight="30px"
+		android:minHeight="15px"
+		android:progressDrawable="@drawable/seek_bar_line"		
+        android:thumb="@drawable/seekbar_thumb"/>
+    
+    <Button
+        android:id="@+id/select_task_mode"
+        android:layout_width="100px"
+        android:layout_height="35px"
+		android:layout_marginTop="170px"
+		android:layout_marginLeft="150px"
+        android:background="@drawable/select_task_mode_confirm" />
+</FrameLayout>

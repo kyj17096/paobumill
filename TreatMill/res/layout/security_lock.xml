@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+        android:background="@drawable/roundcorner_for_security_lock" 
+    android:gravity="center">
+    
+       <TextView
+           android:id="@+id/security_error_info"
+            android:layout_width="400px"
+            android:layout_height="200px"
+            android:text="@string/safe_lock_is_off"
+            android:textSize="60px"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+</LinearLayout>
